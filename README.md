@@ -21,8 +21,10 @@ _I took this screenshot after the fact, deleting the circles so the autofill cou
 
 I chose to add text, but I figured I'd still show that I learned how to use lines, so I turned the smaller text into horizontal lines. For the actual text, a quick Google search helped me come across the exact font used on the poster. A Gemini Google search response then showed me how to implement this custom font in d3.
 
+I then chose to add some sort of interaction. I chose to make the circles grow on hover because I only have to change the radius to do this. Another Gemini Google search response revealed how to do this to me.
+
 ## Technical Achievements
-I refreshed myself on how to edit HTML pages, and I learned how to use d3 to add shapes, lines, and text with different colors to one. Understanding the basics of d3 will prove very useful for further design work in this course.
+I refreshed myself on how to edit HTML pages, and I learned how to use d3 to add shapes, lines, and text with different colors to one. I then iterated on the existing design by adding a hover animation to some of the shapes. Understanding the basics of d3 will prove very useful for further design work in this course.
 
 ## Design Achievements
-I replicated an existing design to gain an understanding and appreciation for it. Each color on the poster is very distinct from every other color, which makes each shape very easy to distinguish. I also learned that our eyes are very sensitive to aligmnent. One pixel made more of a difference than I previously would have thought.
+I replicated and expanded slighlty on an existing design to gain an understanding and appreciation for it. Each color on the poster is very distinct from every other color, which makes each shape very easy to distinguish. I also learned that our eyes are very sensitive to aligmnent. One pixel made more of a difference than I previously would have thought.
