@@ -65,19 +65,57 @@
       .attr("cx", 310)
       .attr("cy", 95)
       .attr("r", 50)
-      .attr("fill", "#0965b5");
+      .attr("fill", "#0965b5")
+      .on("mouseover", function(event, d) {
+        d3.select(this)
+          .raise()
+          .transition()
+          .duration(150)
+          .attr("r", 60);
+      })
+      .on("mouseout", function(event, d) {
+        d3.select(this)
+          .transition()
+          .duration(150)
+          .attr("r", 50);
+      });
 
     svg.append("circle")
       .attr("cx", 110)
       .attr("cy", 195)
       .attr("r", 50)
       .attr("fill", "#dc2825")
+      .on("mouseover", function(event, d) {
+        d3.select(this)
+          .raise()
+          .transition()
+          .duration(150)
+          .attr("r", 60);
+      })
+      .on("mouseout", function(event, d) {
+        d3.select(this)
+          .transition()
+          .duration(150)
+          .attr("r", 50);
+      });
 
     svg.append("circle")
       .attr("cx", 210)
       .attr("cy", 495)
       .attr("r", 50)
-      .attr("fill", "#dc2825")
+      .attr("fill", "#dc2825").on("mouseover", function(event, d) {
+        d3.select(this)
+          .raise()
+          .transition()
+          .duration(150)
+          .attr("r", 60);
+      })
+      .on("mouseout", function(event, d) {
+        d3.select(this)
+          .transition()
+          .duration(150)
+          .attr("r", 50);
+      });
 
 
     // Add Lines
@@ -105,7 +143,7 @@
     // Add Polygons
     svg.append("polygon")
       .attr("points", "160,45 260,45 260,245 360,245 360,345 160,345")
-      .attr("fill", "#ffc72c");
+      .attr("fill", "#ffc72c")
 
 
     // Add Text
